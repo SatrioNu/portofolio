@@ -33,12 +33,6 @@ class UserSeeder extends Seeder
                 'email_verified_at' => now(),
                 'password' => Hash::make('developer123'),
             ],
-            [
-                'name' => 'Test User',
-                'email' => 'test@example.com',
-                'email_verified_at' => now(),
-                'password' => Hash::make('test123'),
-            ],
         ];
 
         foreach ($users as $user) {
